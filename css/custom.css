@@ -39,8 +39,87 @@
     padding: 20px 10px;
 }
 
+#services .services-item:hover {
+    border: 1px solid #D9E158;
+}
+
 #services .services-item .icon {
     margin-bottom: 0;
+    height: 80px;
+    width: 80px;
+    background: #003D34;
+}
+
+#services .services-item .icon i {
+    top: 25%;
+    color: #D9E158;
+}
+
+#business-plan .business-item-info h3 {
+    font-weight: normal;
+    color: #003D34;
+    font-size: 40px;
+}
+
+#business-plan .business-item-info p {
+    color: #000;
+}
+
+#business-plan .business-item-info .sources,
+#features .sources {
+    color: #424242;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#features .featured-bg {
+    background: none;
+}
+
+#features .feature-item {
+    height: 100%;
+    background: #fff;
+}
+
+#features .feature-item h4 {
+    color: #003D34;
+    text-align: center;
+}
+
+#features .feature-item p {
+    color: #000;
+    text-align: justify;
+}
+
+#features .feature-item .featured-desc {
+    color: #003D34;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#showcase .gradient-bg {
+    background: #003D34;
+    padding: 119px 0px 200px 0px;
+}
+
+#showcase .showcase-area {
+    top: 300px;
+}
+
+#showcase .showcase-slider .screenshot-thumb > .hover-content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #D9E158;
+}
+
+#showcase .showcase-slider .screenshot-thumb .zoom-icon a i {
+    font-size: 40px;
+}
+
+#showcase .showcase-slider .screenshot-thumb .zoom-icon a i:hover {
+    color: #003D34;
 }
 
 /* ==========================================================================

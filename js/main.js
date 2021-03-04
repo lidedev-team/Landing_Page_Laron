@@ -32,7 +32,7 @@
 
     /* showcase Slider
     =============================*/
-     var owl = $(".showcase-slider");
+     var owl = $(".product-slider");
       owl.owlCarousel({
         navigation: false,
         pagination: true,
@@ -46,6 +46,21 @@
         itemsMobile: [479, 1]
       });
 
+    /* gallery-slider
+    =============================*/
+    var owl = $(".gallery-slider");
+    owl.owlCarousel({
+      navigation: false,
+      pagination: true,
+      slideSpeed: 1000,
+      margin:10,
+      stopOnHover: true,
+      autoPlay: true,
+      items: 6,
+      itemsDesktopSmall: [1024, 3],
+      itemsTablet: [600, 1],
+      itemsMobile: [479, 1]
+    });
 
 
   /* 
