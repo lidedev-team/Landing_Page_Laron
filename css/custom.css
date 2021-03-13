@@ -380,10 +380,38 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .icon-social i {
     color: #fff;
     font-size: 24px;
     line-height: 1.5;
+}
+
+.subs-info ul li a {
+    color: #424242;
+    font-size: 15px;
+}
+
+.subs-info ul li a:hover {
+    color: #003D34;
+}
+
+.privacy-section {
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.privacy-section h1 {
+    border-bottom: solid 6px #D9E158;
+    display: inline-block;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+}
+
+.privacy-section p {
+    font-size: 16px;
+    color: #424242;
+    margin-bottom: 10px;
 }
